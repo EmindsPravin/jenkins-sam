@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repo') {
-            steps {
-                git url: 'https://github.com/your-user/your-repo.git', branch: 'main'
-            }
-        }
+        // stage('Clone Repo') {
+        //     steps {
+        //         git url: 'https://github.com/your-user/your-repo.git', branch: 'main'
+        //     }
+        // }
 
         stage('Build') {
             steps {
